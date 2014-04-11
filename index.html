@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Header footer</title>
+	<style>
+		body { margin:0; padding:0; }
+
+
+		#header-container { 
+			background: orange; 
+			height:60px;
+			position: fixed; 
+			width:100%; 
+			top:0; 
+		}
+		.header{ 
+			line-height:60px; 
+			margin:0 auto; 
+			width:100%; 
+			text-align:center; 
+		}
+
+		/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+		#container { 
+			overflow: auto; 
+			padding: 80px 0; 
+			width: 100%; 
+		}
+
+		#footer-container { 
+			background: orange; 
+			bottom:0; 
+			height:60px; 
+			position:fixed; 
+			width:100%; 
+		}
+		.footer { 
+			line-height:60px; 
+			margin:0 auto; 
+			width:100%; 
+			text-align:center; 
+		}	
+
+	</style>
+</head>
+<body>
+<!-- BEGIN: Sticky Header -->
+<div id="header-container">
+    <div class="header">
+    	Header
+    </div>
+</div>
+<!-- END: Sticky Header -->
+
+<!-- BEGIN: Page Content -->
+<div id="container">
+    <div id="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet ipsum magna, et convallis sem. Nunc pulvinar magna vitae orci malesuada blandit. Proin ac purus dui. Suspendisse venenatis egestas egestas. Sed tincidunt diam et massa convallis et mollis enim malesuada. Nullam eget metus nunc, eget imperdiet urna. Quisque vehicula ipsum non sapien vulputate convallis quis quis ligula. Aenean gravida mollis blandit. Nullam lacus tortor, viverra a auctor ac, porta eget neque. Duis placerat mi metus, a gravida quam.
+        <br /><br />
+        Nam ut augue mauris, at dapibus quam. Pellentesque eu nunc enim. Proin facilisis, dolor nec sollicitudin mattis, sem velit mollis sem, sagittis sagittis libero ante id nunc. Nam congue, mauris non porttitor convallis, purus elit faucibus nunc, in mollis sem lorem eu tortor. Cras nec justo id libero fringilla placerat ac et leo. Mauris ac vehicula odio. Cras augue erat, sodales vel porttitor ut, scelerisque nec justo. Praesent vitae lorem erat. Suspendisse elementum tortor vitae diam venenatis eget fermentum lacus suscipit. Quisque varius vulputate tempus.
+        <br /><br />
+        Aliquam lacinia lacus vel ante sagittis vestibulum fringilla sem accumsan. Phasellus eget dictum ipsum. Sed sed aliquam nisi. Nam vitae tempus tellus. Vestibulum convallis tellus diam, sed posuere lectus. Nulla diam velit, tristique in dignissim quis, porta eu nulla. Quisque quis nisl urna, id adipiscing quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer justo nisi, sollicitudin vitae porttitor eu, elementum ut ante.
+        <br /><br />
+        Proin id odio nibh. Integer adipiscing fermentum tellus consectetur hendrerit. Sed porta, lectus sed dictum tempor, risus orci lacinia nulla, non rutrum neque tellus vitae velit. Quisque ut lectus eget nunc vulputate ultrices eget vitae metus. Vestibulum ac ligula urna, placerat scelerisque sem. Vestibulum porta interdum orci, quis porttitor arcu dictum pulvinar. Maecenas quis quam augue, accumsan consectetur arcu. Etiam quis augue quam, at auctor diam. Donec varius venenatis diam at pulvinar. Donec imperdiet elit id urna tincidunt commodo eget ut metus. Nam convallis malesuada dapibus. Aenean erat nunc, tempus id facilisis ac, dignissim nec urna.
+    </div>
+</div>
+<!-- END: Page Content -->
+
+<!-- BEGIN: Sticky Footer -->
+<div id="footer-container">
+    <div class="footer">
+        footer
+    </div>
+</div>
+<!-- END: Sticky Footer -->
+</body>
+</html>
